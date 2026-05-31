@@ -1,0 +1,13 @@
+{
+    "target_log": "/var/log/auth.log",
+    "firewall_ban_cmd": "sudo ufw insert 1 deny from {ip}",
+    "firewall_unban_cmd": "sudo ufw delete deny from {ip}",
+    "rules": [
+        {
+            "name": "SSH_Bruteforce",
+            "regex": "Failed password for .* from ({ip}) port",
+            "max_attempts": 4,
+            "time_window": 120
+        }
+    ]
+}
