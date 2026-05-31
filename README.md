@@ -30,7 +30,7 @@ Hellfire is a lightweight, zero-dependency Automated Intrusion Prevention System
 Clone the official repository from GitHub and navigate into the project root directory:
 
 ```bash
-git clone [https://github.com/yourusername/hellfire.git](https://github.com/morkidales/hellfire.git)
+git clone [https://github.com/morkidales/hellfire.git](https://github.com/morkidales/hellfire.git)
 cd hellfire
 
 ```
